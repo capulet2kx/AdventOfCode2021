@@ -6,6 +6,10 @@
 #include "ComputerProgram.h"
 #include "HydrothermalAvoidanceProgram.generated.h"
 
+/**
+ * Map the most dangerous hydrothermal areas.
+ * Day 5 - Advent of Code 2021, Parts 1 & 2.
+ */
 
 // The X axis coordinate and the value at the coordinate
 // Each used Y axis gets one of these maps, making a 2D map
