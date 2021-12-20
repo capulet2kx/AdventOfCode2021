@@ -7,7 +7,8 @@
 #include "CrabAlignmentProgram.generated.h"
 
 /**
- * 
+ * Calculate moste fuel efficient crab alignment
+ * Day 7 - Advent of Code 2021, Parts 1 & 2.
  */
 UCLASS(Blueprintable)
 class AOC2021_API UCrabAlignmentProgram : public UComputerProgram
