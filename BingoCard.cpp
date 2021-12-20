@@ -1,4 +1,4 @@
-// Fill out your copyright notice in the Description page of Project Settings.
+// Capulet2kx : Advent of Code 2021
 
 
 #include "BingoCard.h"
