@@ -246,6 +246,6 @@ and they are just playing YouTube videos basically, and I hadn't previously edit
 So although this is the end of my video, it's not the end of my adventure.
 I have a lot more work to do, and I'll keep working on it.
 
-But for now, thank you ever so much for watching, and I how your Advent of Code has been as fulfilling as mine has.
+But for now, thank you ever so much for watching, and I hope your Advent of Code has been as fulfilling as mine has.
 
 Thank you very much.

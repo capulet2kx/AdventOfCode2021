@@ -1,0 +1,85 @@
+Video link:
+https://youtu.be/MifwJ1s6icU
+
+Transcript
+
+Hello there, and welcome to my Advent of Code adventure.
+My name's Rod, or capulet2kx, and, uh, this is my first time doing Advent of Code.
+
+Little Christmas present here, merry Christmas everyone.
+So welcome aboard the Nauti-list.  Naughty list.  Very clever pun there.
+Merry Christmas!
+
+So this is, as I said, the first time I've done Advent of Code.  So I was really taken with the idea that, rather than it being a folder on my hard drive, it could be an actual place that I could visit.  So I decided to create a VR experience.
+So glancing around the Bridge here, you can see we have the control centre in the middle, on the right we have our Sensor Array.  On the left we have some Navigation and Engineering computers.
+
+My goals with this, uh, not just completing the daily puzzles, but I also wanted to become a better VR Developer, and I also wanted to get more experience of Unreal development and Unreal C++.
+
+So how've I done that? Well, um,
+Here we have a computer, and all these computers, they're all the same basically.  But they have a different piece of software loaded in to each of them.
+The computers are Actors, so they can be placed in the world, and the software programs, those are UObjects, that the computers can instantiate.  So if I want to change what program is running on a computer, in the editor I can just change the property in a drop-down box, to run a different program that I've made.
+
+Uh, the buttons here are also Actors.
+Just to show you here, the plus and minus
+With the path diagnostics you may recall that originally, version one, we didn't really understand what was going on properly, so we had to do version 2 of the software, and using the plus and minus it lets us go through those different versions.
+
+Up here, we have the input being displayed on to the screen. So when I do Scan... This is the full input, not just the test input.  
+
+What I found with this is it kind of gives you a better idea of the amount of work that the program is doing. When it's just a bunch of text that you're copying, or pasting, or downloading from the Internet, you don't really know how big it is, and this gives you a better sense of the scale.
+
+So the computer loads up the software program, and then when you press buttons it pushes that in to the program.  The program updates it's text, it says to the computer "Hey, I've changed my text", and the computer then updates it's console here with the relevant text.
+
+The input screen up here is just listening for any "I've loaded a file" events from the piece of software, and it also loads up that file and prints it out to the screen.
+
+I've got web browsers that I've added up here, so we've got our calendar, and Advent of Code, yes, let's all contribute and make things better, and make sure this event continues, and build a really strong community around it.
+
+What can I show you next?
+Sometimes the input is quite pleasurable to watch.
+Let's see, if we run the test, this is the syntax repair... oh yes, these were opening and closing and... yes.  But have a look at this.
+Lovely, nice, Matrix-y, scrolling up the screen there. 
+Segment repair...
+Oh, the Life Support, so this one goes in binary, doesn't it, let's just do... so... 
+The test first.
+This was where you could change between Life Support Diagnostics, and Engine Diagnostics.
+Lovely, all that data scrolling up the screen there.
+
+Okay, so the next thing I suppose I can show you
+Over here we've got what would be the periscope.  Naturally, I haven't got that working, because there's nothing really to see, no puzzle required it.
+
+The Captain, in this command centre here, has the privilege of choosing who wins and loses at Bingo, we've got win or lose mode, let's scan.
+You can see all the different bingo cards scrolling up there, that it's checking.  Of course, it's already checked them by this point, this is just visualization.
+
+Oh, so yeah, we have a periscope screen up here, showing us what would be out of this viewport here
+Over here we have our Sensor Array, with our basin analysis, Hydrothermals, Depth Sensor, I mean, I'm sure you know what kind of things we can expect from all of these. 
+There's the test Hydrothermal, and the full data.
+
+And I guess the final thing to show you is down here.  This is where we have the Marine Biology Research area, it didn't really fit on the Bridge.
+
+Here we are, so we've got our Lanternfish study, Crabs, crab alignment, Octopus study.
+All our lovely optical, sorry, octopus... What a friendly looking chap, huh?
+
+The crabs I'm not so sure about, but maybe if we study them long enough, we'll be able to understand their weird engineering.
+
+Their weird, highly inefficient, engineering.  Maybe they're powered by Electric Eels, that might explain why you get that falloff, maybe they're running out of voltage.
+
+Okay, so what is left to tell you about, let me just quickly refer to my notes.
+So what didn't I manage to do.  So there was some things I didn't manage.
+I wanted to have better VR based controls.  Instead of just plus and minus, what about a dial that you can spin round, rr a lever that you can pull?
+So I'll be working on that.  I also want to get movement in rather than teleporting around, I'd like to be able to walk around.  Kind of build up my suite of VR features that I've worked on basically.
+
+I wish I had got more of the days done. I only managed to get 11 days done so far.
+I wish that I had written better tests, what I'd like to go...
+We've got these test functions
+I'd like to add to those tests the actual data, sort of confirmed from...
+We have found that, well, no test data can really claim to catch every single bug you're likely to introduce, so just having more data to check against would be good.
+
+But what bonuses did I get?
+Well where I've made these video screens
+and they are just playing YouTube videos basically, and I hadn't previously edited YouTube URLs.  So here I learned how to set them up to autoplay, and be full screen, and I figured out how to get them to loop using a playlist.  So yes, I'm quite pleased with that, that was a bit of bonus learning.
+
+So although this is the end of my video, it's not the end of my adventure.
+I have a lot more work to do, and I'll keep working on it.
+
+But for now, thank you ever so much for watching, and I hope your Advent of Code has been as fulfilling as mine has.
+
+Thank you very much.
