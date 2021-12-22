@@ -1,0 +1,251 @@
+Video link:
+https://youtu.be/MifwJ1s6icU
+
+Transcript and [description of visuals]
+
+[VR environment, viewing a metal-panelled wall.  A ladder leads upwards, to a closed hatch.]
+
+Hello there, and welcome to my Advent of Code adventure.
+My name's Rod, or capulet2kx, and, uh, this is my first time doing Advent of Code.
+
+[Picks up small Christmas present from the floor]
+
+Little Christmas present here, merry Christmas everyone.
+
+[Moves Christmas present from one hand to the other]
+
+So welcome aboard the Nauti-list.  Naughty list.  Very clever pun there.
+
+[Turns 180 degrees, revealing the submarine bridge.  The lighting is a warm yellow.  The right wall is lined with large, cubic equipment, with screens and buttons.  Above the equipment a sign reads "Sensor Array".  In the middle of the room there is a periscope with computers either side.  To the left, the wall is lined with computers with seats for operators.  Above these computers are two large video screens, reaching up to the roof.]
+
+Merry Christmas!
+
+[Throws small Christmas present upwards and it falls to the floor]
+
+So this is, as I said, the first time I've done Advent of Code.  So I was really taken with the idea that, rather than it being a folder on my hard drive, it could be an actual place that I could visit.  So I decided to create a VR experience.
+So glancing around the Bridge here, you can see we have the control centre in the middle, on the right we have our Sensor Array.  On the left we have some Navigation and Engineering computers.
+
+My goals with this, uh, not just completing the daily puzzles, but I also wanted to become a better VR Developer, and I also wanted to get more experience of Unreal development and Unreal C++.
+
+So how've I done that? Well, um,
+
+[Teleports to the nearest computer on the left side of the room.  The computer has a console saying "Path Diagnostics V2. System Online.".  To the left of the console are four buttons, marked "-", "+", "Scan" and "Test".  Above the computer is a separate screen saying "No data."]
+
+Here we have a computer, and all these computers
+
+[Looks along the wall and gestures towards the computers lining it]
+
+They're all the same basically.  But they have a different piece of software loaded in to each of them.
+The computers are Actors, so they can be placed in the world, and the software programs, those are UObjects, that the computers can instantiate.  So if I want to change what program is running on a computer, in the editor I can just change the property in a drop-down box, to run a different program that I've made.
+
+Uh, the buttons here are also Actors.
+
+[Gestures towards the buttons at the side of the computer console]
+
+Just to show you here, the plus and minus
+
+[Reaches towards, and interacts with the minus button.  The computer console changes to say "Path Diagnostics V1".]
+
+With the path diagnostics you may recall that originally, version one, 
+
+[Reaches towards, and interacts with the Test button.  The computer console changes to say 3 version 1 tests have succeeded.
+The screen above the computer shows that a file has been loaded, then starts printing the file contents line by line, "forward 5", "down 5", etc.]
+
+we didn't really understand what was going on properly, so we had to do version 2 of the software, and using the plus and minus
+
+[gestures towards plus and minus buttons beside the console.  Reaches towards and interacts with the Plus button.  The computer console changes to say "Path Diagnostics V2"]
+
+it lets us go through those different versions.
+
+Up here,
+
+[Gestures towards the separate screen above the computer]
+
+We have the input being displayed on to the screen. So when I do Scan
+
+[Reaches towards and interacts with the Scan button.  The computer console shows the results for V2 of the software.  The screen above the computer quickly streams the piloting commands from the input data.
+Gestures towards the screen above the computer]
+
+This is the full input, not just the test input.  
+
+[The screen above the computer is still streaming commands.]
+
+What I found with this is it kind of gives you a better idea of the amount of work
+
+[The screen above the computer has now stopped streaming commands.]
+
+that the program is doing. When it's just a bunch of text that you're copying, or pasting, or downloading from the Internet, you don't really know how big it is, and this gives you a better sense of the scale.
+
+So the computer loads up the software program, and then when you press buttons it pushes that in to the program.  The program updates it's text, it says to the computer "Hey, I've changed my text", and the computer then updates it's console here with the relevant text.
+
+The input screen up here is just listening for any "I've loaded a file" events from the piece of software, and it also loads up that file and prints it out to the screen.
+
+[Turns to face the Command Centre in the middle of the room and teleports to it.
+Turns back around to face the Engineering and Navigation computers again, and looks at the large monitors above the computers.  The left monitor shows the Advent of Code calendar webpage.  The right monitor shows the Advent of Code ++ contribution/donation webpage.]
+
+I've got web browsers that I've added up here, so we've got our calendar, and Advent of Code, yes, let's all contribute and make things better, and make sure this event continues, and build a really strong community around it.
+
+[Looks around the room]
+
+What can I show you next?
+
+[Teleport back to a computer along the left wall.  This computer console says "Syntax Repair - System online".]
+
+Sometimes the input is quite pleasurable to watch.
+
+[Presses the Test button.  The computer console show the test has passed.  The input screen above streams lines of characters used to open and close blocks.]
+
+Let's see, if we run the test, this is the syntax repair... oh yes, these were opening and closing and... yes.  But have a look at this.
+
+[Presses the scan button.  The console show the result values, and the input screen quickly streams the lines of characters.]
+
+Lovely, nice, Matrix-y, scrolling up the screen there. 
+
+[Looks to the computer to the right]
+
+Segment repair...
+
+[Looks to the computer to the left, and teleports to it]
+
+Oh, the Life Support, so this one goes in binary, doesn't it, let's just do... so... 
+
+[Presses the Test button.  The console shows the tests have passed. The screen above slowly streams a few short lines of binary.]
+
+The test first.
+This was where you could change between Life Support Diagnostics, and Engine Diagnostics.
+
+[Presses minus button.  The console now says "Engine Diagnostics.  Presses the scan button.  The console shows the results, and the input screen quickly streams many, longer, lines of binary.]
+
+Lovely, all that data scrolling up the screen there.
+
+Okay, so the next thing I suppose I can show you
+
+[Teleports to the Command Centre in the middle of the room, next to the periscope.]
+
+Over here we've got what would be the periscope.  Naturally, I haven't got that working, because there's nothing really to see, no puzzle required it.
+
+[Turns to face the computer to the left, reading "Bingo Cheat : Lose - System Online"]
+
+The Captain, in this command centre here, has the privilege of choosing who wins and loses at Bingo,
+
+[Uses the Plus and Minus buttons to switch between Win and Lose modes.]
+
+We've got win or lose mode, let's scan,
+
+[Presses the scan button.  The console shows the result for the first winning card.  The screen above the computer quickly streams bingo card rows.  Gestures towards the screen above.]
+
+You can see all the different bingo cards scrolling up there, that it's checking.  Of course, it's already checked them by this point, this is just visualization.
+
+[Turns to face the opposite computer. This computer is different from the others, the console and screen are displaying something other than plain text.  The computer console is showing the Advent of Code calendar webpage.  Gestures to the screen above the computer.  It is showing a periscope point of view video on the surface of the water.]
+
+Oh, so yeah, we have a periscope screen up here, showing us what would be out of this viewport here
+
+[Gestures towards the eye-piece on the periscope]
+
+[Teleports to the Sensor Array wall.  The equipment here has the same screens and inputs as the computers - they are, indeed, computers with a different appearance.  They also have am additional video screen above each computer.]
+
+Over here we have our Sensor Array, with our basin analysis,
+
+[Looks towards the "Basin Analysis" equipment on the left, the video shows a terrain being filled, as if with water, filling the low points first.]
+
+Hydrothermals,
+
+[Looks towards the "Hydrothermals V2" equipment in the middle.  The video screen shows a hydrothermal vent.  The video looks washed out, the images are hard to distinguish.]
+
+Depth Sensor,
+
+[Looks towards the "Depth Sensor" equipment on the right.  The video show a circular sonar-sweep visualisation.
+Turns back towards the "Hydrothermals V2" equipment in the middle.]
+
+I mean, I'm sure you know what kind of things we can expect from all of these, 
+
+[Presses the Test button, the console shows the test passed, the screen above slowly lists a few input 2D vectors.]
+
+there's the test Hydrothermal, 
+
+[Presses the Scan button, the console shows the result, the screen above quickly lists many input 2D vectors.]
+
+and the full data.
+
+And I guess the final thing to show you is down here,
+
+[Teleports past the end of the equipment, towards a corridor with an open doorway at the end.  Turns to face signage on the wall pointing the direction to "Marine Biology Research".]
+
+This is where we have the Marine Biology Research area,
+
+[Continues teleporting to reach the Marine Biology Research area.]
+
+it didn't really fit on the Bridge.
+
+[Turns to face the three computers in the room.  These also have an additional video screen above them.]
+
+Here we are, so we've got our Lanternfish study,
+
+[Indicates the "Lanternfish Study" computer on the left.  The video above shows Lanternfish, highlighting their glow.]
+
+Crabs, crab alignment,
+
+[Indicates the "Crab Alignment : V2" computer in the middle.  The video above shows an army of crabs moving on the sea floor.]
+
+Octopus study,
+
+[Indicates the "Octopus Study" computer on the right.  The video above shows a Dumbo Octopus moving on the sea floor.
+Teleports to the Octopus study Computer and presses the Test button.  The console shows the test has passed, and the screen above streams the starting values, line by line.  Presses the Scan button, the console shows the results, and the screen above re-populates streaming the new starting values.]
+
+All our lovely optical, sorry, octopus, 
+
+[Looks up at the vide screen and watches the Dumbo Octopus]
+
+What a friendly looking chap, huh?
+
+[Turns to look at the video screen of the crab army]
+
+The crabs I'm not so sure about, but maybe if we study them long enough, we'll be able to understand their weird engineering.
+
+[Turn back to the doorway and teleports back to the Bridge]
+
+Their weird, highly inefficient, engineering.  Maybe they're powered by Electric Eels, that might explain why you get that falloff, maybe they're running out of voltage.
+
+[Now back in the Bridge, looks around.]
+
+Okay, so what is left to tell you about, let me just quickly refer to my notes.
+So what didn't I manage to do.  So there was some things I didn't manage.
+I wanted to have better VR based controls.  Instead of just plus and minus
+
+[Indicates Plus and Minus buttons on a computer]
+
+What about a dial that you can spin round
+
+[Makes a circular gesture where the plus and minus buttons are.]
+
+Or a lever that you can pull
+
+[Makes a lever pulling gesture where the plus and minus buttons are.]
+
+So I'll be working on that.
+I also want to get movement in rather than teleporting around, 
+
+[Teleports around the room]
+
+I'd like to be able to walk around.  Kind of build up my suite of VR features that I've worked on basically.
+
+I wish I had got more of the days done. I only managed to get 11 days done so far.
+I wish that I had written better tests, what I'd like to go...
+We've got these test functions
+
+[Indicates the test button on a computer]
+
+I'd like to add to those tests the actual data, sort of confirmed from...
+We have found that, well, no test data can really claim to catch every single bug you're likely to introduce, so just having more data to check against would be good.
+But what bonuses did I get?
+Well where I've made these video screens
+
+[Teleports to and looks at the periscope video screen in the Command Centre]
+
+and they are just playing YouTube videos basically, and I hadn't previously edited YouTube URLs.  So here I learned how to set them up to autoplay, and be full screen, and I figured out how to get them to loop using a playlist.  So yes, I'm quite pleased with that, that was a bit of bonus learning.
+So although this is the end of my video, it's not the end of my adventure.
+I have a lot more work to do, and I'll keep working on it.
+
+But for now, thank you ever so much for watching, and I how your Advent of Code has been as fulfilling as mine has.
+
+Thank you very much.
